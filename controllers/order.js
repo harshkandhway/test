@@ -19,7 +19,7 @@ const getAllOrders = async (req, res) => {
 }
 
 const getSingleOrder = async (req, res) => {
-    
+    res.send('get single order')
 }
 
 
@@ -150,7 +150,7 @@ const createOrder = async (req,res)=>{
     }
 
 const updateOrder = async (req, res) => {
-    
+    res.send('update order')
 }
 
 module.exports = {

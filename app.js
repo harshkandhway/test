@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cookieParser(process.env.JWT_SECRET))
 app.use(cors())
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + './public'));
 app.use(fileUpload());
 // process.env.JWT_SECRET
 
